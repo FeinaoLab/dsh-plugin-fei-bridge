@@ -1,0 +1,16 @@
+{
+  "name": "dsh-plugin-fei-bridge",
+  "description": "Fei family (飞系) bridge bundle: registers the fei-bridge plugin row as the first step of wiring DSH to the 52 fei systems (feinao gateway, MES/WMS/QMS...)",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "license": "MIT",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukema81/dsh-plugin-fei-bridge.git"
+  },
+  "homepage": "https://github.com/dukema81/dsh-plugin-fei-bridge#readme"
+}
