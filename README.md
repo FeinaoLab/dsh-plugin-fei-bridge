@@ -1,32 +1,43 @@
-# dsh-plugin-fei-bridge
+# 🔌 飞桥插件系统
 
-飞系（52 个企业管理系统 + 飞脑 Agent 网关）接入 DeepSeek Harness 的第一个组合包。
+> 飞桥插件系统 —— 灵活可扩展的插件架构平台
 
-## 它是什么
+## 📖 项目简介
 
-一个最小可安装的 DSH bundle（`dsh.bundle.patch` 声明 + `cordis.patch.yml` + 插件模块），
-作用是把 `fei-bridge` 插件行插入 profile，验证「飞系项目 → DSH 插件索引 → 发现 → 安装 → 激活」全链路。
+飞桥插件系统是一套高可扩展性的插件架构框架，支持热插拔、动态加载和第三方集成，帮助开发者快速构建模块化、可插拔的应用系统。
 
-安装成功后，启动 profile 时终端输出：
+## ✨ 主要特性
 
-```text
-[fei-bridge] loaded — 飞系桥接组合包已激活（v0.1.0）
+- 🧩 **插件架构** —— 清晰的插件生命周期与依赖管理
+- 🔥 **热插拔** —— 运行时动态加载/卸载插件，无需重启
+- 🔗 **扩展接口** —— 丰富的 Hook 与 API 接口，灵活扩展
+- 🌐 **第三方集成** —— 轻松对接外部服务与系统
+- 📡 **事件总线** —— 插件间松耦合通信机制
+- 🛡️ **沙箱隔离** —— 插件运行环境安全隔离
+
+## 🚀 快速开始
+
+```bash
+# 克隆仓库
+git clone https://github.com/dukema81/dsh-plugin-fei-bridge.git
+
+# 进入项目目录
+cd dsh-plugin-fei-bridge
+
+# 安装依赖
+npm install
+
+# 启动开发环境
+npm run dev
+
+# 运行测试
+npm test
 ```
 
-## 安装
+## 📄 许可证
 
-```sh
-dsh plugin --profile <你的profile> add git+https://github.com/dukema81/dsh-plugin-fei-bridge.git
-# 或从索引源安装：把 https://raw.githubusercontent.com/dukema81/dsh-fei-market/main/site/index.json
-# 添加为 DSH「发现」页的索引源
-```
+本项目采用 [MIT License](LICENSE) 开源许可证。
 
-## 后续路线
+---
 
-- `feinao_chat` 工具：调用飞脑 `/nao/api/chat`（LCM 长期会话）
-- `fei_query` 工具：经飞脑 NL2API 查飞系系统数据
-- 飞系话术 / 合规 instructions 层
-
-## 协议
-
-MIT
+Made with ❤️ by dukema81
