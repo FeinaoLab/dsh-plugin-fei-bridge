@@ -40,4 +40,4 @@ npm test
 
 ---
 
-Made with ❤️ by dukema81
+Made with ❤️ by FeinaoLab
