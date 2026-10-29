@@ -19,7 +19,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/dukema81/dsh-plugin-fei-bridge.git
+git clone https://github.com/FeinaoLab/dsh-plugin-fei-bridge.git
 
 # 进入项目目录
 cd dsh-plugin-fei-bridge

@@ -10,7 +10,7 @@
   "engines": { "dsh": ">=0.2.0-rc.2" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dukema81/dsh-plugin-fei-bridge.git"
+    "url": "git+https://github.com/FeinaoLab/dsh-plugin-fei-bridge.git"
   },
-  "homepage": "https://github.com/dukema81/dsh-plugin-fei-bridge#readme"
+  "homepage": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge#readme"
 }
